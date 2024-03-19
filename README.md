@@ -42,10 +42,13 @@ You can download Cico's packet tracer in Skills for all: https://skillsforall.co
 
 More on the course description: This course guides you to master network theory, internet infrasture, basic network security, management and troubleshooting.
 
-Networking Fundamentals Syllabus
-by Akamai Technologies, Inc.
-About this Course
-Students start by learning basic network theory and terminology including network components, node functions, types of networks and network models. Students will gain an understanding of the Open Systems Interconnection (OSI) model and the TCP/IP Model including encapsulation and common network protocols. Students learn about data transmission methods and ethernet including CSMA/CD and CSMA/CA. The course covers wired and wireless networking standards, and networking hardware including switches and routers. Students will gain a thorough understanding of TCP/IP including binary numbers, CIDR notation, ANDing, and configuring routes in a network using routers and NAT routers. Students learn to configure DHCP and DNS, and then examine regulating traffic between network zones including implementing a DMZ, and using IDS/IPS technology, and configuring VPNs. The course includes a thorough discussion of troubleshooting wired and wireless networks including using packet sniffers. Students will use software that will allow them to simulate sophisticated networks to achieve practical experience. The course ends with a capstone that students will complete to demonstrate mastery of course objectives.
+### Networking Fundamentals Syllabus
+
+## by Akamai Technologies, Inc.
+
+# About this Course
+
+## Students start by learning basic network theory and terminology including network components, node functions, types of networks and network models. Students will gain an understanding of the Open Systems Interconnection (OSI) model and the TCP/IP Model including encapsulation and common network protocols. Students learn about data transmission methods and ethernet including CSMA/CD and CSMA/CA. The course covers wired and wireless networking standards, and networking hardware including switches and routers. Students will gain a thorough understanding of TCP/IP including binary numbers, CIDR notation, ANDing, and configuring routes in a network using routers and NAT routers. Students learn to configure DHCP and DNS, and then examine regulating traffic between network zones including implementing a DMZ, and using IDS/IPS technology, and configuring VPNs. The course includes a thorough discussion of troubleshooting wired and wireless networks including using packet sniffers. Students will use software that will allow them to simulate sophisticated networks to achieve practical experience. The course ends with a capstone that students will complete to demonstrate mastery of course objectives.
  
 
 Week 1
