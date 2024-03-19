@@ -1,7 +1,7 @@
 # Networking-Fundamentals-from-Akamai-Technical-Academy
 
 
-This repo has the end results of my capstone project. The goal was to create a SOHO network using packet tracer and a presentation decribing the network design and features. 
+This repo has the end results of my capstone project. The goal was to create a SOHO network using packet tracer and a presentation describing the network design and features. 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Pre-requisite:
