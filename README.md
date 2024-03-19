@@ -4,7 +4,7 @@
 This repo has the end results of my capstone project. The goal was to create a SOHO network using packet tracer and a presentation decribing your netowrk design. 
 
 
-***Pre-requisite:
+## Pre-requisite:
 
 
 *Cisco Packet Tracer version 8.2.2. 
