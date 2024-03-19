@@ -1,7 +1,7 @@
 # Networking-Fundamentals-from-Akamai-Technical-Academy
 
 
-This repo has the end results of my capstone project. The goal was to create a SOHO network using packet tracer and a presentation decribing your netowrk design. 
+This repo has the end results of my capstone project. The goal was to create a SOHO network using packet tracer and a presentation decribing the network design and features. 
 
 
 ### Pre-requisite:
@@ -18,6 +18,7 @@ https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=en-U
 
 
 ### In the Akamai Capstone Soho Network file you will see the following:
+
 
 
 #### -SOHO_Network_Capstone_Akamai_GE.pkt: the packet tracer file you need to open in packet tracer. 
