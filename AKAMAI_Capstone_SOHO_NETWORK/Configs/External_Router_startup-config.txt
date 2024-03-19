@@ -1,0 +1,145 @@
+!
+version 15.1
+service timestamps log datetime msec
+service timestamps debug datetime msec
+service password-encryption
+no service dhcp
+!
+hostname externalrouter
+!
+!
+!
+enable secret 5 $1$mERr$hx5rVt7rPNoS4wqbXKX7m0
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+license udi pid CISCO2911/K9 sn FTX1524OTBH-
+license boot module c2900 technology-package securityk9
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip inspect audit-trail
+ip inspect max-incomplete low 50
+ip inspect max-incomplete high 100
+ip inspect udp idle-time 60
+ip inspect dns-timeout 10
+ip inspect tcp idle-time 900
+ip inspect tcp finwait-time 30
+ip inspect name ALLOWED_TRAFFIC http audit-trail on timeout 3600
+spanning-tree mode pvst
+!
+ip ips config location ipsdir retries 1
+ip ips fail closed
+ip ips name iosips
+ip ips signature-category
+  category all
+   retired true
+  category ios_ips basic
+   retired false
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ no ip address
+ ip ips iosips in
+ ip nat inside
+ ip inspect ALLOWED_TRAFFIC in
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/0.40
+ encapsulation dot1Q 40
+ ip address 192.168.2.3 255.255.255.0
+ ip nat inside
+!
+interface GigabitEthernet0/1
+ ip address 1.1.1.1 255.255.255.0
+ ip ips iosips out
+ ip access-group BLOCK_MALICIOUS in
+ ip nat outside
+ ip inspect ALLOWED_TRAFFIC out
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/2
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router rip
+ version 2
+ network 192.168.1.0
+ network 192.168.2.0
+!
+ip nat inside source list 1 interface GigabitEthernet0/1 overload
+ip nat inside source static tcp 192.168.2.2 80 1.1.1.1 80 
+ip classless
+!
+ip flow-export version 9
+!
+!
+access-list 1 permit 192.168.2.0 0.0.0.255
+access-list 1 permit 192.168.1.0 0.0.0.255
+ip access-list extended DENY_ANY
+ deny ip any any
+ip access-list extended ALLOW_ICMP_HTTP
+ permit icmp any any echo-reply
+ permit tcp any any eq www
+ip access-list extended BLOCK_MALICIOUS
+ deny ip host 185.234.216.59 any
+ deny ip host 212.83.185.105 any
+ deny ip host 113.160.133.8 any
+ permit ip any any
+!
+banner motd #
+
+Unauthorized access is forbidden#
+!
+!
+!
+!
+logging trap debugging
+logging 192.168.2.2
+logging 192.168.2.1
+logging 192.168.2.0
+logging 192.168.2.50
+line con 0
+ history size 15
+ exec-timeout 6 45
+ password 7 0822455D0A1625464058
+ logging synchronous
+ login
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
+

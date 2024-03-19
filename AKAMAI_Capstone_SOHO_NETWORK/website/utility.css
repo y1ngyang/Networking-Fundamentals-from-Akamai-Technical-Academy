@@ -1,0 +1,12 @@
+/* Utility classes */
+.u-text-center {
+    text-align: center;
+}
+
+.u-margin-top {
+    margin-top: 20px;
+}
+
+.u-padding {
+    padding: 10px;
+}

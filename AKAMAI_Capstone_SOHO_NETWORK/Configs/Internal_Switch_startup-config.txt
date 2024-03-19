@@ -1,0 +1,144 @@
+!
+version 15.0
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+service password-encryption
+!
+hostname InternalSwitch
+!
+enable secret 5 $1$mERr$hx5rVt7rPNoS4wqbXKX7m0
+!
+!
+!
+!
+ip arp inspection vlan 10,20,30
+!
+ip dhcp snooping vlan 10,20,30
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+interface FastEthernet0/1
+ switchport mode trunk
+ storm-control broadcast level 75
+!
+interface FastEthernet0/2
+ switchport access vlan 10
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 2
+ switchport port-security violation restrict 
+!
+interface FastEthernet0/3
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/5
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/6
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/7
+ switchport access vlan 20
+ switchport mode access
+!
+interface FastEthernet0/8
+ switchport access vlan 30
+ switchport mode access
+!
+interface FastEthernet0/9
+ switchport access vlan 30
+ switchport mode access
+!
+interface FastEthernet0/10
+ switchport access vlan 30
+ switchport mode access
+!
+interface FastEthernet0/11
+ shutdown
+!
+interface FastEthernet0/12
+ shutdown
+!
+interface FastEthernet0/13
+ shutdown
+!
+interface FastEthernet0/14
+ shutdown
+!
+interface FastEthernet0/15
+ shutdown
+!
+interface FastEthernet0/16
+ shutdown
+!
+interface FastEthernet0/17
+ shutdown
+!
+interface FastEthernet0/18
+ shutdown
+!
+interface FastEthernet0/19
+ shutdown
+!
+interface FastEthernet0/20
+ shutdown
+!
+interface FastEthernet0/21
+ shutdown
+!
+interface FastEthernet0/22
+ shutdown
+!
+interface FastEthernet0/23
+ shutdown
+!
+interface FastEthernet0/24
+ shutdown
+!
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+banner motd #
+Unauthorized access is forbidden#
+!
+!
+!
+line con 0
+ password 7 0822455D0A1625464058
+ logging synchronous
+ login
+ history size 15
+ exec-timeout 6 45
+!
+line vty 0 4
+ exec-timeout 8 20
+ password 7 0822455D0A1625464058
+ logging synchronous
+ login local
+ history size 15
+ transport input ssh
+line vty 5 15
+ exec-timeout 8 20
+ password 7 0822455D0A1625464058
+ logging synchronous
+ login
+ history size 15
+!
+!
+!
+!
+end
+
