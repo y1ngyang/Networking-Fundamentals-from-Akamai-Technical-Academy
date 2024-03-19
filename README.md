@@ -7,7 +7,7 @@ This repo has the end results of my capstone project. The goal was to create a S
 ## Pre-requisite:
 
 
-*Cisco Packet Tracer version 8.2.2. 
+Cisco Packet Tracer version 8.2.2. 
 
 
 You can download Cico's packet tracer in Skills for all: https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=en-US
