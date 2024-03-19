@@ -3,19 +3,18 @@
 
 This repo has the end results of my capstone project. The goal was to create a SOHO network using packet tracer and a presentation decribing the network design and features. 
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Pre-requisite:
 
 
 Cisco Packet Tracer version 8.2.2. 
 
 
-You can download Cico's packet tracer in Skills for all:
+You can download Cisco's packet tracer in Skills for all:
 
 https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=en-US
 
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### In the Akamai Capstone Soho Network file you will see the following:
 
