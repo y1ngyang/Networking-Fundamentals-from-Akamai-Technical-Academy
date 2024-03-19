@@ -15,7 +15,7 @@ You can download Cico's packet tracer in Skills for all: https://skillsforall.co
 
 
 
-## In the Akamai Capstone Soho Network file you will see the following:
+### In the Akamai Capstone Soho Network file you will see the following:
 
 
 -SOHO_Network_Capstone_Akamai_GE.pkt: the packet tracer file you need to open in packet tracer. 
@@ -48,11 +48,12 @@ More on the course description: This course guides you to master network theory,
 
 #### About this Course
 
-##### Students start by learning basic network theory and terminology including network components, node functions, types of networks and network models. Students will gain an understanding of the Open Systems Interconnection (OSI) model and the TCP/IP Model including encapsulation and common network protocols. Students learn about data transmission methods and ethernet including CSMA/CD and CSMA/CA. The course covers wired and wireless networking standards, and networking hardware including switches and routers. Students will gain a thorough understanding of TCP/IP including binary numbers, CIDR notation, ANDing, and configuring routes in a network using routers and NAT routers. Students learn to configure DHCP and DNS, and then examine regulating traffic between network zones including implementing a DMZ, and using IDS/IPS technology, and configuring VPNs. The course includes a thorough discussion of troubleshooting wired and wireless networks including using packet sniffers. Students will use software that will allow them to simulate sophisticated networks to achieve practical experience. The course ends with a capstone that students will complete to demonstrate mastery of course objectives.
+Students start by learning basic network theory and terminology including network components, node functions, types of networks and network models. Students will gain an understanding of the Open Systems Interconnection (OSI) model and the TCP/IP Model including encapsulation and common network protocols. Students learn about data transmission methods and ethernet including CSMA/CD and CSMA/CA. The course covers wired and wireless networking standards, and networking hardware including switches and routers. Students will gain a thorough understanding of TCP/IP including binary numbers, CIDR notation, ANDing, and configuring routes in a network using routers and NAT routers. Students learn to configure DHCP and DNS, and then examine regulating traffic between network zones including implementing a DMZ, and using IDS/IPS technology, and configuring VPNs. The course includes a thorough discussion of troubleshooting wired and wireless networks including using packet sniffers. Students will use software that will allow them to simulate sophisticated networks to achieve practical experience. The course ends with a capstone that students will complete to demonstrate mastery of course objectives.
  
 
-Week 1
-Network Theory
+### Week 1
+### Network Theory
+
 This module provides the student with an opportunity to understand some of the most basic vocabulary used in networking. Students will learn about the categories of networks and the standard network models.
 7 videos, 12 readings, 3 practice quizzes
 
@@ -83,7 +84,9 @@ This module provides the student with an opportunity to understand some of the m
     Video: Network Theory Review
 
 Graded: Network Theory Graded Assessment
-Protocol Models
+
+### Protocol Models
+
 In this module, students will learn about the OSI model and the TCP/IP model which describe how protocols work.
 4 videos, 7 readings, 2 practice quizzes
 
@@ -102,8 +105,11 @@ In this module, students will learn about the OSI model and the TCP/IP model whi
     Video: Protocol Models Review
 
 Graded: Protocol Models Graded Assessment
-Week 2
-Network Transmissions and Hardware
+
+
+### Week 2
+### Network Transmissions and Hardware
+
 In this module, students will learn about data transmission methods. After learning about the most common media access methods, they will explore common network connectivity devices. Finally, students will learn about wireless networks.
 5 videos, 13 readings, 3 practice quizzes
 
@@ -132,7 +138,9 @@ In this module, students will learn about data transmission methods. After learn
     Video: Wireless Review
 
 Graded: Network Transmissions and Hardware Graded Assessment
-Internet Protocols
+
+### Internet Protocols
+
 In this module, students will learn about how the IP protocol works. Students will learn about IPv4 and IPv6 addresses and routing.
 15 videos, 7 readings, 3 practice quizzes
 
@@ -164,8 +172,10 @@ In this module, students will learn about how the IP protocol works. Students wi
     Video: Internet Protocols Review
 
 Graded: Internet Protocols Graded Assessment
-Week 3
-TCP/IP Services
+
+### Week 3
+### TCP/IP Services
+
 In this module, students will learn about the DHCP and DNS services that support TCP/IP. They will also explore some basic troubleshooting commands.
 18 videos, 2 readings, 3 practice quizzes
 
@@ -194,7 +204,9 @@ In this module, students will learn about the DHCP and DNS services that support
     Video: TCP/IP Services Review
 
 Graded: TCP/IP Services Graded Assessment
-Network Security
+
+### Network Security
+
 In this module, students will learn about defense in depth. They will explore controls for securing networks and controls for detecting network intrusions.
 3 videos, 5 readings, 2 practice quizzes
 
@@ -210,8 +222,10 @@ In this module, students will learn about defense in depth. They will explore co
     Video: Network Security Review
 
 Graded: Network Security Graded Assessment
-Week 4
-Remote Networking
+
+### Week 4
+### Remote Networking
+
 In this module, students will learn remote access in general and VPNs in specific.
 2 videos, 4 readings, 2 practice quizzes
 
@@ -225,7 +239,9 @@ In this module, students will learn remote access in general and VPNs in specifi
     Video: Remote Networking Review
 
 Graded: Remote Networking Graded Assessment
-Network Management / Troubleshooting
+
+### Network Management / Troubleshooting
+
 In this module, students will learn the concepts of network management. They will study troubleshooting methodology and review strategies for troubleshooting various types of issues.
 1 video, 10 readings, 2 practice quizzes
 
@@ -245,11 +261,13 @@ In this module, students will learn the concepts of network management. They wil
     Video: Network Management / Troubleshooting Review
 
 Graded: Network Management / Troubleshooting Graded Assessment
-Capstone
+
+### Capstone
+
 In this module, the student will upload a capstone project that demonstrates mastery of the material.
 2 videos
 
-Create a file in Packet Tracer to demonstrate the proposed “company” network. Include a minimum of two client machines. The two machines must be able to ping each other by IP address.
+I Create a file in Packet Tracer to demonstrate the proposed “company” network. Include a minimum of two client machines. The two machines must be able to ping each other by IP address.
 
     Include whatever networking equipment called for in your plan.
 
@@ -272,8 +290,9 @@ Create a file in Packet Tracer to demonstrate the proposed “company” network
     Many of the devices can be found in the End Devices: End Devices section in Packet Tracer.
 
     Provide whatever devices are necessary to demonstrate the technology you have chosen.
+    
 
-Oral Presentation or PowerPoint
+II Oral Presentation or PowerPoint
 
 You may record an oral presentation or create a PowerPoint presentation. If you choose an oral presentation, the length should be no more than ten minutes of recorded video. An oral presentation does not have to be perfect. You’re not being evaluated on your ability to edit video. If there are speaking mistakes, that’s ok. You can also choose to combine both solutions and record your PowerPoint with a voiceover.
 
@@ -286,8 +305,5 @@ A discussion of the internal network you have designed and an explanation of the
 If you chose an oral presentation, pan to the Packet Tracer file you created. You can also draw on a white board if you want. If you chose PowerPoint, include a screenshot of your Packet Tracer solution.
 
 You do not need to show every single device configuration. Include the devices and configurations that are relevant to your network.
-
-    Video: Captsone Introduction
-    Video: Capstone Instructions
 
 Graded: Network Design Peer Review
