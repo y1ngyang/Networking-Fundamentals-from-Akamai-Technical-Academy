@@ -1,5 +1,18 @@
 # Networking-Fundamentals-from-Akamai-Technical-Academy
-master network theory, internet infrasture, basic network security, management and troubleshooting.
+Upon course completion, your capstone project is to create a SOHO network using packet tracer and a presentation. Packet tracer files are .pka. The packet tracer version used was 8.2.2. 
+Pre-requisite:
+Cisco Packet Tracer
+You can download Cico's packet tracer in Skills for all: https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=en-US
+Note URL are subject to change. 
+
+In the Akamai Capstone Soho Network file you will see the following:
+SOHO_Network_Capstone_Akamai_GE.pkt: the packet tracer file you need to open in packet tracer. 
+Capstone_SOHO_Network_Design_Presentation: file this has the power point presentation. 
+Configs: Configs from some network devices.
+website: files used to configure the basic website 
+images: I needed these as proof of certain deliverables. 
+
+This course guides you to master network theory, internet infrasture, basic network security, management and troubleshooting.
 
 Networking Fundamentals Syllabus
 by Akamai Technologies, Inc.
@@ -204,6 +217,44 @@ Graded: Network Management / Troubleshooting Graded Assessment
 Capstone
 In this module, the student will upload a capstone project that demonstrates mastery of the material.
 2 videos
+
+Create a file in Packet Tracer to demonstrate the proposed “company” network. Include a minimum of two client machines. The two machines must be able to ping each other by IP address.
+
+    Include whatever networking equipment called for in your plan.
+
+        Router(s)
+
+        Switch(es)
+
+    Include any servers required to provide the services needed on your internal network.
+
+    Include the public web server.
+
+    Configure the clients and infrastructure so that they can access the company web page from the LAN.
+
+    Include an external client and configure it so that it can access the company web page from the “Internet”. The web server should be accessed using a URL of http://www.company.com.
+
+    You do not need to include every device in your plan but feel free to include sample devices for demonstration purposes.
+
+    For example, if each employee will have a printer, you only need to provide one printer.
+
+    Many of the devices can be found in the End Devices: End Devices section in Packet Tracer.
+
+    Provide whatever devices are necessary to demonstrate the technology you have chosen.
+
+Oral Presentation or PowerPoint
+
+You may record an oral presentation or create a PowerPoint presentation. If you choose an oral presentation, the length should be no more than ten minutes of recorded video. An oral presentation does not have to be perfect. You’re not being evaluated on your ability to edit video. If there are speaking mistakes, that’s ok. You can also choose to combine both solutions and record your PowerPoint with a voiceover.
+
+The oral presentation or the PowerPoint must include the following:
+
+The name of your company.
+
+A discussion of the internal network you have designed and an explanation of the reasons behind your choices.
+
+If you chose an oral presentation, pan to the Packet Tracer file you created. You can also draw on a white board if you want. If you chose PowerPoint, include a screenshot of your Packet Tracer solution.
+
+You do not need to show every single device configuration. Include the devices and configurations that are relevant to your network.
 
     Video: Captsone Introduction
     Video: Capstone Instructions
