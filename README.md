@@ -1,9 +1,14 @@
 # Networking-Fundamentals-from-Akamai-Technical-Academy
-Upon course completion, your capstone project is to create a SOHO network using packet tracer and a presentation. Packet tracer files are .pka. The packet tracer version used was 8.2.2. 
+
+
+This repo has the end results of my capstone project. The goal was to create a SOHO network using packet tracer and a presentation decribing your netowrk design. 
+
+
 Pre-requisite:
-Cisco Packet Tracer
+Cisco Packet Tracer version 8.2.2. 
 You can download Cico's packet tracer in Skills for all: https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=en-US
 Note URL are subject to change. 
+
 
 In the Akamai Capstone Soho Network file you will see the following:
 SOHO_Network_Capstone_Akamai_GE.pkt: the packet tracer file you need to open in packet tracer. 
@@ -12,7 +17,7 @@ Configs: Configs from some network devices.
 website: files used to configure the basic website 
 images: I needed these as proof of certain deliverables. 
 
-This course guides you to master network theory, internet infrasture, basic network security, management and troubleshooting.
+More on the course description: This course guides you to master network theory, internet infrasture, basic network security, management and troubleshooting.
 
 Networking Fundamentals Syllabus
 by Akamai Technologies, Inc.
