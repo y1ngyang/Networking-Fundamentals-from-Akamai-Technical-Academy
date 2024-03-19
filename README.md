@@ -5,16 +5,24 @@ This repo has the end results of my capstone project. The goal was to create a S
 
 
 Pre-requisite:
+
 Cisco Packet Tracer version 8.2.2. 
+
 You can download Cico's packet tracer in Skills for all: https://skillsforall.com/learningcollections/cisco-packet-tracer?courseLang=en-US
-Note URL are subject to change. 
+
+
 
 
 In the Akamai Capstone Soho Network file you will see the following:
+
 SOHO_Network_Capstone_Akamai_GE.pkt: the packet tracer file you need to open in packet tracer. 
+
 Capstone_SOHO_Network_Design_Presentation: file this has the power point presentation. 
+
 Configs: Configs from some network devices.
+
 website: files used to configure the basic website 
+
 images: I needed these as proof of certain deliverables. 
 
 More on the course description: This course guides you to master network theory, internet infrasture, basic network security, management and troubleshooting.
